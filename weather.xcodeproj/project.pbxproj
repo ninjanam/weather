@@ -54,14 +54,30 @@
 		699932BF1D7FB842008ED0EE /* weather */ = {
 			isa = PBXGroup;
 			children = (
+				699932D31D7FB861008ED0EE /* Controller */,
+				699932D21D7FB855008ED0EE /* View */,
 				699932C01D7FB842008ED0EE /* AppDelegate.swift */,
-				699932C21D7FB842008ED0EE /* ViewController.swift */,
 				699932C41D7FB842008ED0EE /* Main.storyboard */,
 				699932C71D7FB842008ED0EE /* Assets.xcassets */,
 				699932C91D7FB842008ED0EE /* LaunchScreen.storyboard */,
 				699932CC1D7FB842008ED0EE /* Info.plist */,
 			);
 			path = weather;
+			sourceTree = "<group>";
+		};
+		699932D21D7FB855008ED0EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		699932D31D7FB861008ED0EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				699932C21D7FB842008ED0EE /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
